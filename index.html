@@ -18,11 +18,49 @@
         }
         .p01 {
             color: #f0f0f0;
-            font-size: 25px;
+            font-size: 20px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
         }.p02{
             color: cadetblue;
             text-align: justify;
             font-size: 25px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img01{
+            width: 300px;
+            height :auto
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+        .table01{
+            /*border-color: blue;*/
+            border: 1px solid #a310e7;
+            width: 50%;
+        }
+        th{
+            background-color: azure;
+            color: rgb(3, 10, 10);
+            front-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+        caption{
+            color: rgb(248, 203, 0);
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td{
+            border: 1px solid #000000;
+            font: arial;
+            font-size: 15px;
+            text-align: center;
+        }
+        .img03{
+            width: 100px;
+            height: auto;
+            border-radius: 120px;
         }
     </style>
 </head>
@@ -41,7 +79,7 @@
         <p class="p01">
             Bienvenido a nuestra pagina de animales, aqui podras encontrar una gran variedad de animales, desde los mas pequeños hasta los mas grandes.
         </p>
-        <img src="/imagenes/imagen gato.jpg" alt="">
+        <img class="img01" src="/imagenes/imagen gato.jpg" alt="">
         <a href="#marcador01">inicio</a>
         <br>
         <p class="p02">            Si quieres saber mas sobre nosotros, puedes visitar nuestra pagina de contactos, donde podras encontrar toda la informacion necesaria para ponerte en contacto con nosotros.
@@ -49,15 +87,15 @@
     </div>
     <div>
         <tr>
-        <h2 id="marcador02">Precios</h2>
-        <p>En la clasificación científica de los seres vivos, los animales (Animalia), anteriormente también metazoos (Metazoa) constituyen un reino que reúne un amplio grupo de organismos eucariotas, heterótrofos, pluricelulares y tisulares . Se caracterizan por su amplia capacidad de movimiento, por no tener cloroplasto (aunque hay excepciones, como en el caso de Elysia chlorotica) ni pared celular, y por su desarrollo embrionario; que atraviesa una fase de blástula y determina un plan corporal fijo (aunque muchas especies pueden sufrir una metamorfosis posterior como los artrópodos). Los animales forman un grupo natural estrechamente emparentado con los hongos (reino Fungi). Animalia es uno de los cinco reinos del dominio Eukaryota, y a él pertenece el ser humano. La parte de la biología que estudia los animales es la zoología.</p>
-        <img src="/imagenes/imagen bosque.jpg" alt="Imagen de un bosque" width="500" height="300">
+        <h2 id="marcador02">Animales</h2>
+        <p class="p02">En la clasificación científica de los seres vivos, los animales (Animalia), anteriormente también metazoos (Metazoa) constituyen un reino que reúne un amplio grupo de organismos eucariotas, heterótrofos, pluricelulares y tisulares . Se caracterizan por su amplia capacidad de movimiento, por no tener cloroplasto (aunque hay excepciones, como en el caso de Elysia chlorotica) ni pared celular, y por su desarrollo embrionario; que atraviesa una fase de blástula y determina un plan corporal fijo (aunque muchas especies pueden sufrir una metamorfosis posterior como los artrópodos). Los animales forman un grupo natural estrechamente emparentado con los hongos (reino Fungi). Animalia es uno de los cinco reinos del dominio Eukaryota, y a él pertenece el ser humano. La parte de la biología que estudia los animales es la zoología.</p>
+        <img class="img01" src="/imagenes/imagen bosque.jpg" alt="Imagen de un bosque" width="500" height="300">
         <a href="#macador01">inicio</a>
         </tr>
     </div>
     <div>
         <h2 id="marcador03">Precios</h2>
-        <table border="1">
+        <table class="table01">
             <caption>Lista de Precios</caption>
             <tr>
                 <th>Item</th>
@@ -68,19 +106,19 @@
             <tbody>
                 <tr>
                     <td>01</td>
-                    <td>perro</td>
+                    <td class="img03">perro</td>
                     <td>100.000</td>
                     <td>100.000</td>
                 </tr>
                 <tr>
                     <td>02</td>
-                    <td>gato</td>
+                    <td class="img03">gato</td>
                     <td>50.000</td>
                     <td>50.000</td>
                 </tr>
                 <tr>
                     <td>03</td>
-                    <td>Buho</td>
+                    <td class="img03">Buho</td>
                     <td>1.000.000</td>
                     <td>1.000.000</td>
                 </tr>
